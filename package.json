@@ -1,0 +1,30 @@
+{
+  "name": "Nome do site",
+  "version": "1.0.0",
+  "description": "Desc do site",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "sass": "node-sass public/scss -o public/css --output-style compressed -w ",
+    "start": "run-p sass dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "PokerTeam",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "body": "^5.1.0",
+    "consolidate": "^0.16.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.1",
+    "express-session": "^1.17.1",
+    "mustache": "^4.1.0",
+    "parser": "^0.1.4"
+  }
+}
